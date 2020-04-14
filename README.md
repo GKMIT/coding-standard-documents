@@ -28,12 +28,10 @@ Coding standards are a set of guidelines, best practices, programming styles and
       com.example.myapp.utils - Contains all helpers supporting code.
       com.example.myapp.ui.* - Contains all UI-related packages/classes
       
-      com.example.myapp.ui.login - Contains classes related to some app's Main    			
-      Screen, like in MVP architecture activity/fragment, presenters, adapter etc. and 
+      com.example.myapp.ui.login - Contains classes related to some app's Main Screen, like in MVP architecture 	   				      activity/fragment, presenters, adapter etc. and 
       for MVVM activity/fragment, viewmodels etc.
       
-      com.example.myapp.ui.orderdetail - Contains classes related to some app's  
-      Item Details Screen
+      com.example.myapp.ui.orderdetail - Contains classes related to some app's Item Details Screen
       
 
  **1.2. Resources Structure:**
