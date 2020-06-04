@@ -60,7 +60,9 @@ Our first step will be to define the directory structure within `src` (Source). 
 			|- environment.js
 			|- store.js
 
+
 ## **Naming Conventions**
+
 -   A folder and sub folder name should always start with small letters and the files belong the folders is always in pascal case.
 -   Component Name should follow the pascal case
     
@@ -69,7 +71,9 @@ Our first step will be to define the directory structure within `src` (Source). 
 -   The object and variable declaration should always be in camel case statement.
 
 
+
 ## Code Formatting 
+
 - Create aliases using [babel-plugin-module-resolver](https://github.com/tleunen/babel-plugin-module-resolver) to avoid nested imports such as import Product from						
 `../../../Components/Product`	Aliases created using babel-plugin-module-resolver look something like this.
 
@@ -85,6 +89,7 @@ Our first step will be to define the directory structure within `src` (Source). 
 			types: './app/types',
 			utils: './app/utils',
 		}
+		
 
 -   Including all the controls in a single import belong to the same module end with semicolon. There should be no space between two imports.
     
@@ -100,7 +105,9 @@ Our first step will be to define the directory structure within `src` (Source). 
     
 -   Always end a statement with a semicolon.
 
+
 ##  Best Practices
+
 **1.** Split the components into presentational and containers.
 
 -  ### **Presentational components**
@@ -113,10 +120,13 @@ Our first step will be to define the directory structure within `src` (Source). 
   
   
 
+
 **2.** Choose wisely between 4 types on react component according to the functionality and requirement,
+
     
 -   ### **Functional Components**
     Functional components are functions that take in props and return JSX. They don’t have state or lifecycle methods, but this functionality can be added by implementing React Hooks.
+    
 
 -   ### **Class Components**
    
@@ -155,12 +165,12 @@ This is a function that returns one or multiple components, depending on the num
     
 **6**.  Use a library like redux-saga. redux-saga helps you handle the App side effects (asynchronous logic such as API calls, Navigation to another screen, etc.) and makes them easier to code and manage.
     
-**7. ** Code reusability is essential for every project for Example:
+**7.** Code reusability is essential for every project for Example:
     
 
 - Create small reusable components with minimum functionality.
     
--   Write similar logical functions in separate file like validation, calculation functions.
+- Write similar logical functions in separate file like validation, calculation functions.
     
 
 **8.** To Prevent The Breaking functionality, use fixed versions of dependencies
