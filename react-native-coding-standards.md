@@ -4,7 +4,7 @@
 React Native is a new technology and Best practices are still evolving However, we have summarised some of them in this document. Let’s Look at them briefly:
 
 
-## Project Structure 
+# Project Structure 
 
 Defining a proper structure for a project is essential for growth, efficiency and easier maintenance.
 
@@ -61,7 +61,7 @@ Our first step will be to define the directory structure within `src` (Source). 
 			|- store.js
 
 
-## **Naming Conventions**
+# Naming Conventions
 
 -   A folder and sub folder name should always start with small letters and the files belong the folders is always in pascal case.
 -   Component Name should follow the pascal case
@@ -72,7 +72,7 @@ Our first step will be to define the directory structure within `src` (Source). 
 
 
 
-## Code Formatting 
+# Code Formatting 
 
 - Create aliases using [babel-plugin-module-resolver](https://github.com/tleunen/babel-plugin-module-resolver) to avoid nested imports such as import Product from						
 `../../../Components/Product`	Aliases created using babel-plugin-module-resolver look something like this.
@@ -106,7 +106,7 @@ Our first step will be to define the directory structure within `src` (Source). 
 -   Always end a statement with a semicolon.
 
 
-##  Best Practices
+#  Best Practices
 
 **1.** Split the components into presentational and containers.
 
