@@ -61,7 +61,9 @@ Our first step will be to define the directory structure within `src` (Source). 
 			|- store.js
 
 
+
 # Naming Conventions
+
 
 -   A folder and sub folder name should always start with small letters and the files belong the folders is always in pascal case.
 -   Component Name should follow the pascal case
